@@ -11,7 +11,11 @@ var emojiDictionary = {
   "🤔": "thinking",
   "👻": "Ghosty",
   "❤️": "Love",
-  "😨": "Scary"
+  "😨": "Scary",
+  "😛": "laugh",
+  "🥶": "Cold",
+  "😟": "Confused",
+  "💀": "Skull"
 };
 var Emojis = Object.keys(emojiDictionary);
 export default function App() {
@@ -31,7 +35,7 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1>inside outt!</h1>
+      <h1>Emoji Recognizer</h1>
       <input style={{ width: "50%", padding: "0.5rem" }} onChange={handler} />
       <div
         style={{ fontWeight: "bold", fontSize: "1.8rem", marginTop: "0.5rem" }}
