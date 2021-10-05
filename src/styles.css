@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.emoji {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
